@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "getuiflut",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ]
+  }
+}
