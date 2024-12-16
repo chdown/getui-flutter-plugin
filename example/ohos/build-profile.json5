@@ -1,0 +1,44 @@
+{
+  "app": {
+    "signingConfigs": [],
+    "products": [
+      {
+        "runtimeOS": "HarmonyOS",
+        "signingConfig": "default",
+        "name": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "buildOption": {
+          "strictMode": {
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ]
+  },
+  "modules": [
+    {
+      "srcPath": "./entry",
+      "name": "entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "srcPath": "../../ohos",
+      "name": "getuiflut",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
